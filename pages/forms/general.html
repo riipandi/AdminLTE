@@ -533,21 +533,21 @@
                   <label for="exampleInputPassword1">Password</label>
                   <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                 </div>
+
                 <div class="form-group">
                   <label for="exampleInputFile">File input</label>
-                  <input type="file" id="exampleInputFile">
-
-                  <p class="help-block">Example block-level help text here.</p>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox"> Check me out
-                  </label>
+                  <div class="input-group input-file" name="Fichier1">
+                    <input type="text" class="form-control" placeholder='Choose a file...' />
+                    <span class="input-group-btn">
+                      <button class="btn btn-default btn-choose" type="button">Choose</button>
+                    </span>
+                  </div>
+                  <p class="help-block text-italic">Example block-level help text here.</p>
                 </div>
               </div>
               <!-- /.box-body -->
 
-              <div class="box-footer">
+              <div class="box-footer float-right">
                 <button type="submit" class="btn btn-primary">Submit</button>
               </div>
             </form>
@@ -1112,7 +1112,7 @@
 <!-- FastClick -->
 <script src="../../bower_components/fastclick/lib/fastclick.js"></script>
 <!-- Asura App -->
-<script src="../../dist/js/asura.min.js"></script>
+<script src="../../dist/js/asura.js"></script>
 <!-- Asura for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
 </body>
