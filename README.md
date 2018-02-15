@@ -1,11 +1,6 @@
 Introduction
 ============
 
-![Bower version](https://img.shields.io/bower/v/asura.svg)
-[![npm version](https://img.shields.io/npm/v/asura.svg)](https://www.npmjs.com/package/asura)
-[![Packagist](https://img.shields.io/packagist/v/riipandi/asura.svg)](https://packagist.org/packages/riipandi/asura)
-[![CDNJS](https://img.shields.io/cdnjs/v/asura.svg)](https://cdnjs.com/libraries/asura)
-
 **Asura** is a fully responsive admin template. Based on **[AdminLTE](https://adminlte.io/)**. Highly customizable and easy to use. 
 Fits many screen resolutions from small mobile devices to large desktops. Check out the live preview now and see for yourself.
 
