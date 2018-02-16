@@ -43,13 +43,13 @@ module.exports = function (grunt) { // jshint ignore:line
       development  : {
         files: {
           // compilation.css  :  source.less
-          'dist/css/asura.css'                     : 'build/less/asura.less',
+          'dist/css/asura.css'                 : 'build/less/asura.less',
           // Asura without plugins
-          'dist/css/alt/asura-without-plugins.css' : 'build/less/asura-without-plugins.less',
+          'dist/css/asura-without-plugins.css' : 'build/less/asura-without-plugins.less',
           // Separate plugins
-          'dist/css/alt/asura-select2.css'         : 'build/less/select2.less',
-          'dist/css/alt/asura-fullcalendar.css'    : 'build/less/fullcalendar.less',
-          'dist/css/alt/asura-bootstrap-social.css': 'build/less/bootstrap-social.less'
+          'dist/css/asura-select2.css'         : 'build/less/select2.less',
+          'dist/css/asura-fullcalendar.css'    : 'build/less/fullcalendar.less',
+          'dist/css/asura-bootstrap-social.css': 'build/less/bootstrap-social.less'
         }
       },
       // Production compressed version
@@ -61,11 +61,11 @@ module.exports = function (grunt) { // jshint ignore:line
           // compilation.css  :  source.less
           'dist/css/asura.min.css'                     : 'build/less/asura.less',
           // Asura without plugins
-          'dist/css/alt/asura-without-plugins.min.css' : 'build/less/asura-without-plugins.less',
+          'dist/css/asura-without-plugins.min.css' : 'build/less/asura-without-plugins.less',
           // Separate plugins
-          'dist/css/alt/asura-select2.min.css'         : 'build/less/select2.less',
-          'dist/css/alt/asura-fullcalendar.min.css'    : 'build/less/fullcalendar.less',
-          'dist/css/alt/asura-bootstrap-social.min.css': 'build/less/bootstrap-social.less'
+          'dist/css/asura-select2.min.css'         : 'build/less/select2.less',
+          'dist/css/asura-fullcalendar.min.css'    : 'build/less/fullcalendar.less',
+          'dist/css/asura-bootstrap-social.min.css': 'build/less/bootstrap-social.less'
         }
       },
       // Non minified skin files
@@ -162,8 +162,8 @@ module.exports = function (grunt) { // jshint ignore:line
     // Replace image paths in Asura without plugins
     replace: {
       withoutPlugins   : {
-        src         : ['dist/css/alt/asura-without-plugins.css'],
-        dest        : 'dist/css/alt/asura-without-plugins.css',
+        src         : ['dist/css/asura-without-plugins.css'],
+        dest        : 'dist/css/asura-without-plugins.css',
         replacements: [
           {
             from: '../img',
@@ -172,8 +172,8 @@ module.exports = function (grunt) { // jshint ignore:line
         ]
       },
       withoutPluginsMin: {
-        src         : ['dist/css/alt/asura-without-plugins.min.css'],
-        dest        : 'dist/css/alt/asura-without-plugins.min.css',
+        src         : ['dist/css/asura-without-plugins.min.css'],
+        dest        : 'dist/css/asura-without-plugins.min.css',
         replacements: [
           {
             from: '../img',
