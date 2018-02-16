@@ -58,5 +58,14 @@
     "raphael": "^2.2.7",
     "select2": "^4.0.3",
     "slimscroll": "^0.9.1"
-  }
+  },
+  "description": "**Asura** is a fully responsive admin template. Based on **[AdminLTE](https://adminlte.io/)**. Highly customizable and easy to use.",
+  "bugs": {
+    "url": "https://github.com/riipandi/asura/issues"
+  },
+  "homepage": "https://github.com/riipandi/asura#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aris Ripandi"
 }
