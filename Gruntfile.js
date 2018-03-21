@@ -55,7 +55,7 @@ module.exports = function (grunt) { // jshint ignore:line
           compress: true
         },
         files  : {
-          'dist/css/asura.min.css'                 : 'build/less/asura.less',
+          'dist/css/asura.css'                 : 'build/less/asura.less',
           'dist/css/asura-without-plugins.min.css' : 'build/less/asura-without-plugins.less',
           'dist/css/asura-select2.min.css'         : 'build/less/select2.less',
           'dist/css/asura-fullcalendar.min.css'    : 'build/less/fullcalendar.less',
