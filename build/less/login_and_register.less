@@ -5,12 +5,13 @@
 
 .login-logo,
 .register-logo {
-  font-size: 36px;
   text-align: center;
-  margin-bottom: 20px;
-  font-weight: 300;
-  a {
-    color: #666;
+  margin-bottom: -60px;
+  img {
+    width: 128px;
+    padding: 2px;
+    border: solid 1px @gray-lte;
+    background-color: #fff;
   }
 }
 
@@ -19,14 +20,17 @@
   background: @gray-lte;
 }
 
+.login-box { width: 410px; }
+.register-box { width: 560px; }
+
 .login-box,
 .register-box {
-  width: 420px;
   @media (min-width: @screen-md) {
     top: 50%;
     left: 50%;
     position : absolute; 
     transform: translate3d(-50%,-50%, 0);
+    margin: 0 auto;
   }
   @media (max-width: @screen-sm) {
     width: 90%;
@@ -56,9 +60,6 @@
   color: #666;
   .form-control-feedback {
     color: #777;
-  }
-  input, button {
-    border-radius: 2px !important;
   }
 }
 

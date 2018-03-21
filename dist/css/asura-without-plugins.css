@@ -47,7 +47,7 @@ body {
   position: relative;
 }
 .layout-boxed {
-  background: url('../img/boxed-bg.jpg') repeat fixed;
+  background: url('../../img/boxed-bg.jpg') repeat fixed;
 }
 /*
  * Content Wrapper - contains the main content
@@ -1418,6 +1418,10 @@ a:focus {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+.form-control input,
+.form-control button {
+  border-radius: 2px !important;
 }
 .form-group.has-success label {
   color: #00a65a;
@@ -3412,22 +3416,25 @@ table.text-center th {
  */
 .login-logo,
 .register-logo {
-  font-size: 36px;
   text-align: center;
-  margin-bottom: 20px;
-  font-weight: 300;
+  margin-bottom: -60px;
 }
-.login-logo a,
-.register-logo a {
-  color: #666;
+.login-logo img,
+.register-logo img {
+  width: 128px;
+  padding: 2px;
+  border: solid 1px #d2d6de;
+  background-color: #fff;
 }
 .login-page,
 .register-page {
   background: #d2d6de;
 }
-.login-box,
+.login-box {
+  width: 410px;
+}
 .register-box {
-  width: 420px;
+  width: 560px;
 }
 @media (min-width: 992px) {
   .login-box,
@@ -3436,6 +3443,7 @@ table.text-center th {
     left: 50%;
     position: absolute;
     transform: translate3d(-50%, -50%, 0);
+    margin: 0 auto;
   }
 }
 @media (max-width: 768px) {
@@ -3471,12 +3479,6 @@ table.text-center th {
 .login-box-body .form-control-feedback,
 .register-box-body .form-control-feedback {
   color: #777;
-}
-.login-box-body input,
-.register-box-body input,
-.login-box-body button,
-.register-box-body button {
-  border-radius: 2px !important;
 }
 .login-box-msg,
 .register-box-msg {
