@@ -1,0 +1,18 @@
+{
+	"folders": [{
+		"path": "."
+	}],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.tmb": true,
+			"**/.DS_Store": true,
+			"**/.quarantine": true,
+			"**/.npmignore": true,
+			"**/project.code-workspace": true,
+			"**/composer.lock": true,
+			"**/bower_components": true,
+			"**/node_modules": true
+		},
+	}
+}

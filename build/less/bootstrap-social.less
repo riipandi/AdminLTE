@@ -19,6 +19,7 @@
 @bs-height-xs: (floor(@font-size-small * 1.2) + @padding-small-vertical + 1);
 
 .btn-social {
+  border-radius: 2px !important;
   position: relative;
   padding-left: (@bs-height-base + @padding-base-horizontal);
   text-align: left;
@@ -34,14 +35,13 @@
     line-height: (@bs-height-base + 2);
     font-size: 1.6em;
     text-align: center;
-    border-right: 1px solid rgba(0, 0, 0, 0.2);
   }
   &.btn-lg {
     padding-left: (@bs-height-lg + @padding-large-horizontal);
     > :first-child {
       line-height: @bs-height-lg;
       width: @bs-height-lg;
-      font-size: 1.8em;
+      font-size: 1.4em;
     }
   }
   &.btn-sm {
@@ -49,7 +49,7 @@
     > :first-child {
       line-height: @bs-height-sm;
       width: @bs-height-sm;
-      font-size: 1.4em;
+      font-size: 1em;
     }
   }
   &.btn-xs {
@@ -57,7 +57,7 @@
     > :first-child {
       line-height: @bs-height-xs;
       width: @bs-height-xs;
-      font-size: 1.2em;
+      font-size: .8em;
     }
   }
 }
