@@ -42,11 +42,8 @@ module.exports = function (grunt) { // jshint ignore:line
       // Development not compressed
       development  : {
         files: {
-          // compilation.css  :  source.less
           'dist/css/asura.css'                 : 'build/less/asura.less',
-          // Asura without plugins
           'dist/css/asura-without-plugins.css' : 'build/less/asura-without-plugins.less',
-          // Separate plugins
           'dist/css/asura-select2.css'         : 'build/less/select2.less',
           'dist/css/asura-fullcalendar.css'    : 'build/less/fullcalendar.less',
           'dist/css/asura-bootstrap-social.css': 'build/less/bootstrap-social.less'
@@ -58,32 +55,27 @@ module.exports = function (grunt) { // jshint ignore:line
           compress: true
         },
         files  : {
-          // compilation.css  :  source.less
-          'dist/css/asura.min.css'                     : 'build/less/asura.less',
-          // Asura without plugins
+          'dist/css/asura.min.css'                 : 'build/less/asura.less',
           'dist/css/asura-without-plugins.min.css' : 'build/less/asura-without-plugins.less',
-          // Separate plugins
           'dist/css/asura-select2.min.css'         : 'build/less/select2.less',
           'dist/css/asura-fullcalendar.min.css'    : 'build/less/fullcalendar.less',
           'dist/css/asura-bootstrap-social.min.css': 'build/less/bootstrap-social.less'
         }
       },
+      /*
       // Non minified skin files
       skins        : {
         files: {
           'dist/css/skins/skin-blue.css'        : 'build/less/skins/skin-blue.less',
           'dist/css/skins/skin-black.css'       : 'build/less/skins/skin-black.less',
-          'dist/css/skins/skin-yellow.css'      : 'build/less/skins/skin-yellow.less',
           'dist/css/skins/skin-green.css'       : 'build/less/skins/skin-green.less',
           'dist/css/skins/skin-red.css'         : 'build/less/skins/skin-red.less',
           'dist/css/skins/skin-purple.css'      : 'build/less/skins/skin-purple.less',
           'dist/css/skins/skin-blue-light.css'  : 'build/less/skins/skin-blue-light.less',
           'dist/css/skins/skin-black-light.css' : 'build/less/skins/skin-black-light.less',
-          'dist/css/skins/skin-yellow-light.css': 'build/less/skins/skin-yellow-light.less',
           'dist/css/skins/skin-green-light.css' : 'build/less/skins/skin-green-light.less',
           'dist/css/skins/skin-red-light.css'   : 'build/less/skins/skin-red-light.less',
           'dist/css/skins/skin-purple-light.css': 'build/less/skins/skin-purple-light.less',
-          'dist/css/skins/_all-skins.css'       : 'build/less/skins/_all-skins.less'
         }
       },
       // Skins minified
@@ -94,19 +86,17 @@ module.exports = function (grunt) { // jshint ignore:line
         files  : {
           'dist/css/skins/skin-blue.min.css'        : 'build/less/skins/skin-blue.less',
           'dist/css/skins/skin-black.min.css'       : 'build/less/skins/skin-black.less',
-          'dist/css/skins/skin-yellow.min.css'      : 'build/less/skins/skin-yellow.less',
           'dist/css/skins/skin-green.min.css'       : 'build/less/skins/skin-green.less',
           'dist/css/skins/skin-red.min.css'         : 'build/less/skins/skin-red.less',
           'dist/css/skins/skin-purple.min.css'      : 'build/less/skins/skin-purple.less',
           'dist/css/skins/skin-blue-light.min.css'  : 'build/less/skins/skin-blue-light.less',
           'dist/css/skins/skin-black-light.min.css' : 'build/less/skins/skin-black-light.less',
-          'dist/css/skins/skin-yellow-light.min.css': 'build/less/skins/skin-yellow-light.less',
           'dist/css/skins/skin-green-light.min.css' : 'build/less/skins/skin-green-light.less',
           'dist/css/skins/skin-red-light.min.css'   : 'build/less/skins/skin-red-light.less',
           'dist/css/skins/skin-purple-light.min.css': 'build/less/skins/skin-purple-light.less',
-          'dist/css/skins/_all-skins.min.css'       : 'build/less/skins/_all-skins.less'
         }
       }
+      */
     },
 
     // Uglify task info. Compress the js files.
@@ -133,7 +123,7 @@ module.exports = function (grunt) { // jshint ignore:line
         + '* options and implements exclusive Asura plugins.\n'
         + '*\n'
         + '* @Author  Aris Ripandi\n'
-        + '* @Support <https://www.almsaeedstudio.com>\n'
+        + '* @Support <https://aris.web.id>\n'
         + '* @Email   <ripandi@protonmail.com>\n'
         + '* @version <%= pkg.version %>\n'
         + '* @repository <%= pkg.repository.url %>\n'
